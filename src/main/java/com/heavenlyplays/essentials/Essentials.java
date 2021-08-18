@@ -9,5 +9,6 @@ public class Essentials extends Plugin {
   public void onEnable(){
     //Lobby Command
     this.getProxy().getCommandMap().registerCommand(new LobbyCommand());
+    this.getProxy().getCommandMap().registerCommand(new DisconnectCommand());
   }
 }
